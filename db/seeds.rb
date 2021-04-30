@@ -54,7 +54,8 @@ fake_providers.each do |fake_provider|
       standalone: true
     )
     
-    File.open("/home/tomecrepont/code/troptropcontent/opal/app/assets/images/qr_codes/#{fake_bill.number}.svg", 'w') {|f| f.write(svg) }
+    File.open("/Users/tomecrepont/code/troptropcontent/opal/app/assets/images/qr_codes/#{fake_bill.number}.svg", 'w') {|f| f.write(svg) }
   end
 
 end
+
